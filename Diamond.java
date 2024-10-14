@@ -7,14 +7,14 @@ public class Diamond {
     int no=sc.nextInt();
 
     int count=1;
-    for(int values=1;values<=2*no-1;values++) {
-      for(int firstincrmnt=count;firstincrmnt<=no;firstincrmnt++) {
+    for(int incrmntvalues=1;incrmntvalues<=2*no-1;incrmntvalues++) {
+      for(int secondincrmnt=count;secondincrmnt<=no;secondincrmnt++) {
         System.out.print(" ");
       }
-      for(int secondincrmnt=1;secondincrmnt<=count*2-1;secondincrmnt++) {
+      for(int thirdincrmnt=1;thirdincrmnt<=count*2-1;thirdincrmnt++) {
         System.out.print("*");
       }
-      if(values<no)
+      if(incrmntvalues<no)
       //If 
               count++;
               else
