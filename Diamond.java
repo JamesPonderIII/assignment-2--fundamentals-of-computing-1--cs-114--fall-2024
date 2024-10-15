@@ -19,7 +19,7 @@ public class Diamond {
         System.out.print(" ");
       }
       for(int thirdincrmnt=1;thirdincrmnt<=count*2-1;thirdincrmnt++) {
-        System.out.print("*");
+        System.out.print("* ");
       }
       if(incrmntvalues<numb)
 
