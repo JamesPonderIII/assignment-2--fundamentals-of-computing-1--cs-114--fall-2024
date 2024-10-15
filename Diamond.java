@@ -12,8 +12,8 @@ public class Diamond {
 
     int count=1;
 
-    //Initiate the incrementing of values
-    
+    //Initiate the incrementing of values, assign the number to the incremented value
+
     for(int incrmntvalues=1;incrmntvalues<=2*numb-1;incrmntvalues++) {
       for(int secondincrmnt=count;secondincrmnt<=numb;secondincrmnt++) {
         System.out.print(" ");
